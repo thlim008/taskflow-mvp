@@ -116,7 +116,7 @@ jobs:
           # EC2에서 실행할 명령어들
           script: |
             # 프로젝트 디렉토리로 이동
-            cd ~/taskflow
+            cd ~/taskflow-mvp
             # ~/taskflow = /home/ec2-user/taskflow
 
             # 최신 코드 가져오기
