@@ -125,7 +125,7 @@ jobs:
             # 로컬에서 push한 코드를 EC2로 가져옴
 
             # Docker Compose로 빌드 및 실행
-            docker-compose down
+            docker compose down
             # 기존 컨테이너 중지 및 삭제
             # down = stop + remove
 
